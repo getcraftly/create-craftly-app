@@ -1,0 +1,36 @@
+{
+  "name": "create-craftly-app",
+  "version": "0.1.0",
+  "description": "Scaffold a Next.js project from Craftly's free 404 template. Run with `npx create-craftly-app`.",
+  "type": "module",
+  "bin": {
+    "create-craftly-app": "./index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "README.md"
+  ],
+  "keywords": [
+    "nextjs",
+    "template",
+    "scaffold",
+    "cli",
+    "create-app",
+    "tailwindcss",
+    "typescript",
+    "craftly"
+  ],
+  "author": "Craftly <hello@getcraftly.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getcraftly/create-craftly-app.git"
+  },
+  "homepage": "https://getcraftly.dev",
+  "bugs": {
+    "url": "https://github.com/getcraftly/create-craftly-app/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
